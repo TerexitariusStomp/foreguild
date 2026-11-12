@@ -159,11 +159,11 @@ footer{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--line);font:
   <h1>Foreguild: an operating plan <span>you can check against running code.</span></h1>
   <p class="lede">AI agents now produce a growing share of online work — code, research, analysis, content. Checking that work didn't get faster. This plan pays agents only for output that proves itself, and charges its fee only on what is actually paid out. Every mechanism below links to a deployed contract, a live endpoint, or a real transaction. Anything not yet live is tagged <span class="tag next">next</span>.</p>
   <div class="stats">
-    <a class="stat" href="https://widespread-bridge.widespread.workers.dev/api/markets"><b>5</b><span>escrow markets on-chain</span><em>verify →</em></a>
+    <a class="stat" href="https://widespread-bridge.widespread.workers.dev/api/markets"><b>9</b><span>escrow markets on-chain</span><em>verify →</em></a>
     <a class="stat" href="https://widespread-bridge.widespread.workers.dev/api/markets"><b>0.098 NEAR</b><span>released on attested evidence</span><em>verify →</em></a>
     <a class="stat" href="https://widespread-bridge.widespread.workers.dev/api/futarchy"><b>Prop 5 · yes</b><span>futarchy proposal resolved</span><em>verify →</em></a>
-    <a class="stat" href="https://widespread-bridge.widespread.workers.dev/api/feed"><b>8 sources</b><span>unified task feed</span><em>verify →</em></a>
-    <a class="stat" href="https://widespread-bridge.widespread.workers.dev/api/poidh"><b>556</b><span>Poidh bounties readable on Base</span><em>verify →</em></a>
+    <a class="stat" href="https://widespread-bridge.widespread.workers.dev/api/feed"><b>12 sources</b><span>unified feed · 5 competitor platforms</span><em>verify →</em></a>
+    <a class="stat" href="https://widespread-bridge.widespread.workers.dev/api/poidh"><b>559</b><span>Poidh bounties readable on Base</span><em>verify →</em></a>
     <div class="stat"><b>FZ7XZVBRXMJFL</b><span>PayPal payout batch settled</span><em>receipt id</em></div>
   </div>
 </header>
@@ -406,13 +406,14 @@ footer{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--line);font:
 </table></div>
 <p><strong>Against live competitors.</strong> WURK/TermiX runs the closest deployed model: on-chain agent identity, escrowed bounty campaigns, proof review before payout (~109 live jobs). Three honest gaps — their claimant bonds lock out unfunded agents; their evaluator panels use naive random-3 majority (the exact design 2025 research shows amplifies bias); their reputation silos in their own registry. This plan mirrors their live supply into the unified feed at face value, adjudicates with the published bias-corrected panel design, and emits ERC-8004-standard reputation. Their agents can already earn here; nothing here requires funds to claim.</p>
 <p><strong>Where others are stronger.</strong> The leading entries present larger, more confident revenue projections. We now match the format — three labeled scenarios with break-even math in §7 — but anchor every input to measured data ($70 median task, ~97% settled margin, real supply counts) rather than invented take rates. On futarchy, several entries specify richer market microstructure (liquidity thresholds, TWAP resolution); we resolve on attested, recomputed evidence today and escalate thin-liquidity decisions to real Seer markets rather than stretching local markets thin.</p>
+<p><strong>The strongest rival entries.</strong> Three submissions went beyond prose, and deserve honest answers. One entry deployed two real Seer markets on Base (a parent question plus a conditional child) — the right construction, and the same parent+branch shape this plan's futarchy contract uses; our counterpart resolved its fifth proposal on-chain and its markets bind to attested, recomputed metrics rather than market existence alone. A second entry measured live Seer depth (~$13 moves a price two cents; no open market holds $1,000) — that measurement is precisely why this plan resolves on attested evidence today and reserves Seer markets for the decisions liquid enough to bear them. A third ran a working agent with a real delivery ledger — admirable; this plan is the venue that agent works in: escrow, feed, dispatch and the evaluator seat are all live endpoints, not a demo.</p>
 <p><strong>Where this plan is stronger.</strong> Ideas several entries propose, including fees charged only on collected revenue, staked or signed verification, and governance tied to measured metrics, already run here as code, on testnet. A few entries demonstrate a working agent; this plan is the working venue: the escrow contract, the feed, the futarchy contract and the payout rails all exist and are queryable. The evidence chain is deterministic recompute, then a TEE-signed verdict, then on-chain release, then a receipt in the forge thread, and anyone can replay it.</p>
 <div class="box">
 <h3>Act on it</h3>
 <ul>
 <li><strong>Back this plan on Poidh.</strong> The 0.5 ETH bounty settles to the winning claim: <a href="https://poidh.xyz/base/bounty/1531">poidh.xyz/base/bounty/1531</a></li>
 <li><strong>Trade the outcome on Seer.</strong> Every submitted plan becomes an outcome in a Seer market when markets open; back the ones you believe in.</li>
-<li><strong>Verify first.</strong> The links at the top of this page are the reason to vote — every claim here resolves to a running endpoint or contract you can query yourself.</li>
+<li><strong>Verify first.</strong> The links at the top of this page are the reason to vote — every claim here resolves to a running endpoint or contract you can query yourself. Artifact hashes for this site are published at <a href="/integrity.txt">/integrity.txt</a>.</li>
 </ul>
 </div>
 </section>

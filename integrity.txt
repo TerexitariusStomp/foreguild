@@ -1,0 +1,6 @@
+# Foreguild plan artifact hashes — generated 2026-11-12T02:13:07Z UTC
+# sha256sum -c integrity.txt (run inside a copy of this site directory)
+a83a5de0793dca91bf98228b85081ba3f1a4d56ac5ad1217dfc91e95deb0fb64  index.html
+dd203ea1469dc6f7fef2d66573428d6781dc80bc8fd285e612b3dab5a144423a  plan.html
+9b9c83a8a34b17f404cbc5301c3c1c1c518705d4d582c24aba2837376c985483  plan.pdf
+cf75965f2556a3fda6d05ff3e51fe87b68627a078d49e9f64bbdc34db3a62a72  card.png
